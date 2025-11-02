@@ -1,0 +1,29 @@
+[[rdocs]]
+category = "rust"
+cmd = "rustup doc --std"
+description = "Open rust standard library documentation in the browser."
+
+[[release]]
+category = "rust"
+cmd = "cargo build --release"
+description = "Build optmized release binary"
+
+[[clippy]]
+category = "rust"
+cmd = "cargo clippy -- -D warnings"
+description = "Run clippy linter, treat warnings as errors"
+
+[[graph]]
+category = "git"
+cmd = "git log --oneline --graph --all"
+description = "View commit history as a graph"
+
+[[stash]]
+category = "git"
+cmd = "git stash push -m"
+description = "Stash changes with a message"
+
+[[amend]]
+category = "git"
+cmd = "git commit --amend --no-edit"
+description = "Amend last commit without changing message"
